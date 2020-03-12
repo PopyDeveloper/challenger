@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Container, SearchInput, Label, List } from './styles';
+import { Container, Label, List } from './styles';
 import { Text } from 'react-native';
 import { getRepos } from '../../../store/ducks';
 
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux';
 
-import ItemList from '../../layouts/ItemList'
+import ItemList from '../../layouts/ItemList';
+import SearchInput from '../../layouts/SearchInput';
 
 const Home = ({ navigation }) => {
 

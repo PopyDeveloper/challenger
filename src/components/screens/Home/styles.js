@@ -7,14 +7,6 @@ export const Container = styled.View`
     padding: 10px;
 `;
 
-export const SearchInput = styled.TextInput`
-  padding: 10px;
-  background-color: #fafafa;
-  border-radius: 2px;
-  background-color: #eee;
-  margin: 5px 0px;
-`;
-
 export const Label = styled.Text`
   font-size: 30px;
   font-weight: bold;
